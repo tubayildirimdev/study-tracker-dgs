@@ -3,21 +3,21 @@
 Bu proje; başta DGS (Dikey Geçiş Sınavı) olmak üzere, tüm sınav süreçlerine hazırlanan öğrencilerin çalışma periyotlarını, ders içeriklerini ve ilerlemelerini dinamik olarak takip edebilmeleri amacıyla geliştirilmiş web tabanlı bir otomasyon sistemidir.
 
 ## 🎯 Projenin Amacı
-Öğrencilerin sınav hazırlık sürecini disipline etmek için tasarlanmıştır. Kullanıcılar her gün sistem üzerinden **kaç saat ders çalıştıklarını, kaç soru çözdüklerini ve kaç paragraf sorusu bitirdiklerini** kendi elleriyle panele ekleyerek kişisel gelişimlerini anlık ve şeffaf bir şekilde takip edebilirler.
+Öğrencilerin sınav hazırlık sürecini disipline etmek için tasarlanmıştır. Kullanıcılar her gün sistem üzerinden **kaç saat ders çalıştıklarını, kaç soru çözdüklerini ve kaç paragraf sorusu bitirdiklerini** panele manuel olarak ekleyerek, kişisel gelişimlerini anlık ve şeffaf bir şekilde takip edebilirler.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler & Geliştirme Ortamı
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-* **Tasarım Yapısı:** Dinamik ve Kullanıcı Dostu Arayüz Yapısı
-* **Geliştirme Ortamı:** Sublime Text
+* **Tasarım Yapısı:** Dinamik ve Kullanıcı Dostu Arayüz Tasarımı
+* **Geliştirme Ortamı:** Visual Studio Code (VS Code)
 
 ## 🚀 Özellikler & Esnek Altyapı
 * **Gelişmiş Sınav Modülü:** Sadece DGS ile sınırlı kalmayıp, diğer tüm sınav türlerine ve ders programlarına kolayca uyarlanabilen esnek veri yapısı.
-* **Günlük Performans Kaydı:** Kullanıcının her gün çözdüğü soru, paragraf sayılarını ve çalışma saatlerini sisteme manuel olarak girebilmesi.
-* **Gelişmiş Çöp Kutusu Modülü:** Silinen içeriklerin geri döndürülebilmesi veya kalıcı olarak temizlenmesi için özel `copkutusu.js` altyapısı.
+* **Günlük Performans Kaydı:** Kullanıcının günlük olarak çözdüğü soru, paragraf sayılarını ve çalışma saatlerini sisteme aktarabilmesi.
+* **Gelişmiş Çöp Kutusu Modülü:** Silinen içeriklerin geri döndürülebilmesi veya kalıcı olarak temizlenmesi için özel geliştirdiğim `copkutusu.js` altyapısı.
 * **Geçmiş ve Profil Yönetimi:** Kullanıcının çalışma geçmişini (`gecmis.js`) ve kullanıcı profilini (`profil.html`) yöneten dinamik arabirimler.
 
-## 🔮 Gelecek Planları & Gelişim Vizyonu
-* **Backend Entegrasyonu:** Şu an frontend (arayüz) aşamasında olan projenin PHP ve MySQL bağlantılarının tamamlanarak verilerin bulutta saklanması.
+## 🔮 Gelecek Planları & Geliştirme Vizyonu
+* **Backend Entegrasyonu:** Şu an frontend (arayüz) aşamasında olan projenin PHP ve MySQL bağlantılarının tamamlanarak verilerin yerel veya bulut sunucuda saklanması.
 * **Grafiksel İstatistikler:** Kullanıcının çalışma verilerini grafiklerle (Chart.js vb.) analiz eden yeni bir panel eklenmesi.
 
 ---
