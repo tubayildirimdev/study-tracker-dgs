@@ -2,6 +2,9 @@
 
 Bu proje; başta DGS (Dikey Geçiş Sınavı) olmak üzere, tüm sınav süreçlerine hazırlanan öğrencilerin çalışma periyotlarını, ders içeriklerini ve ilerlemelerini dinamik olarak takip edebilmeleri amacıyla geliştirilmiş web tabanlı bir otomasyon sistemidir.
 
+## 🎯 Projenin Amacı
+Öğrencilerin sınav hazırlık sürecini disipline etmek için tasarlanmıştır. Kullanıcılar her gün sistem üzerinden **kaç saat ders çalıştıklarını, kaç soru çözdüklerini ve kaç paragraf sorusu bitirdiklerini** kendi elleriyle panele ekleyerek kişisel gelişimlerini anlık ve şeffaf bir şekilde takip edebilirler.
+
 ## 🛠️ Kullanılan Teknolojiler
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 * **Tasarım Yapısı:** Dinamik ve Kullanıcı Dostu Arayüz Yapısı
@@ -9,7 +12,7 @@ Bu proje; başta DGS (Dikey Geçiş Sınavı) olmak üzere, tüm sınav süreçl
 
 ## 🚀 Özellikler & Esnek Altyapı
 * **Gelişmiş Sınav Modülü:** Sadece DGS ile sınırlı kalmayıp, diğer tüm sınav türlerine ve ders programlarına kolayca uyarlanabilen esnek veri yapısı.
-* **Çalışma Takibi:** Günlük ve haftalık ders çalışma süreçlerinin kaydı.
+* **Günlük Performans Kaydı:** Kullanıcının her gün çözdüğü soru, paragraf sayılarını ve çalışma saatlerini sisteme manuel olarak girebilmesi.
 * **Gelişmiş Çöp Kutusu Modülü:** Silinen içeriklerin geri döndürülebilmesi veya kalıcı olarak temizlenmesi için özel `copkutusu.js` altyapısı.
 * **Geçmiş ve Profil Yönetimi:** Kullanıcının çalışma geçmişini (`gecmis.js`) ve kullanıcı profilini (`profil.html`) yöneten dinamik arabirimler.
 
@@ -33,4 +36,3 @@ Bu proje; başta DGS (Dikey Geçiş Sınavı) olmak üzere, tüm sınav süreçl
 
 **Proje Hakkında Önemli Not:** 
 Bu proje, mezuniyetimin hemen ardından tamamen kendi başıma, yoğun bir odaklanmayla **sadece 5 gün gibi kısa bir sürede** sıfırdan geliştirilmiştir. Proje şu an kararlı bir arayüz aşamasında olup, aktif olarak **gelişim aşamasındadır**. Belirtilen gelecek planları doğrultusunda üzerine yeni modüller eklenerek büyütülmeye devam edilecektir.
-
