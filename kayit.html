@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTracker - Kayıt Ekle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kayit">
+
+<div class="container">
+
+    <h1>KAYIT EKLE</h1>
+
+    <button onclick="window.location.href='anasayfa.html'">ANA SAYFA</button>
+
+    <h2>Tarih</h2>
+    <input type="date" id="tarih">
+
+    <h2>Paragraf</h2>
+    <input type="number" id="paragraf" placeholder="Çözülen soru sayısı">
+
+    <h2>Paragraf Süresi</h2>
+    <input type="time" id="paragrafSure">
+
+    <h2>Matematik</h2>
+    <input type="text" id="matematik" placeholder="Bugün hangi konuları çalıştın?">
+
+    <h2>Kitap Okuma</h2>
+    <input type="text" id="kitap" placeholder="Okunan kitap">
+
+    <h2>Proje</h2>
+    <input type="text" id="proje" placeholder="Çalışılan proje">
+
+    <h2>Toplam Çalışma Süresi</h2>
+    <input type="time" id="toplamSure">
+
+    <button id="kaydetBtn">KAYDET</button>
+
+    <p id="mesaj"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
